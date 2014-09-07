@@ -1,0 +1,9 @@
+Falta:
+
+- frontend admins:
+- - mostrar lista de clientes
+- - - interna clientes: lista de animais e lista de visitas
+
+- frontend cliente:
+- - lista de visitas
+- - campos para atualizar dados
