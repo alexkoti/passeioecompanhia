@@ -182,7 +182,7 @@ function my_meta_boxes(){
 						'name' => 'veterinario',
 						'type' => 'text',
 						'size' => 'medium',
-						'label' => 'Vaterinário',
+						'label' => 'Veterinário',
 					),
 					array(
 						'name' => '24horas',
