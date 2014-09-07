@@ -10,3 +10,11 @@ function passeio_meta_or( $metas, $key, $holder ){
 		}
 	}
 }
+
+// JAVASCRIPTS - todos os scripts serão adicionados ao wp_footer() por padrão;
+add_action( 'wp_enqueue_scripts', 'add_frontend_scripts' );
+function add_frontend_scripts(){
+	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'functions', get_stylesheet_directory_uri() . '/js/functions.js', 'jquery', '1', true );
+}
+

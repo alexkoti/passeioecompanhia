@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
 	 * 
 	 */
 	$('.datepicker_input').datepicker({
-		dateFormat:      'dd-mm-yy',
+		dateFormat:      'yy-mm-dd',
 		showButtonPanel: true,
 		closeText:       datepickerL10n.closeText,
 		currentText:     datepickerL10n.currentText,

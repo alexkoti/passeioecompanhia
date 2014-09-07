@@ -185,7 +185,6 @@ function register_post_types(){
 		'menu_icon' => 'dashicons-backup',
 		//'show_in_menu' => 'edit.php?post_type=artigo',
 		'supports' => array(
-			'title',
 			'editor',
 			'comments',
 		)

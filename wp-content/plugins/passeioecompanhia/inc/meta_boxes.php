@@ -587,20 +587,20 @@ function my_meta_boxes(){
 				'name' => 'data',
 				'type' => 'text',
 				'size' => 'small',
-				'label' => 'Data',
+				'label' => 'Data da visita',
 				'attr' => array(
 					'class' => 'datepicker_input',
 				),
 			),
 			array(
-				'name' => 'pet_sitte',
+				'name' => 'pet_sitter',
 				'type' => 'radio',
 				'label' => 'Pet-sitter',
+				'std' => 'Gabriela',
 				'options' => array(
-					
 					'values' => array(
-						'gabriela' => 'Gabriela',
-						'cristiana' => 'Cristiana',
+						'Gabriela' => 'Gabriela',
+						'Cristiana' => 'Cristiana',
 					),
 				),
 			),
@@ -610,9 +610,6 @@ function my_meta_boxes(){
 }
 add_filter( 'BFE_map_input_helper', 'passeio_maps', 10, 3 );
 function passeio_maps( $input_helper, $data_value, $context ){
-	//pre($input_helper, '$input_helper');
-	//pre($data_value, '$data_value');
-	//pre($context, '$context');
 	if( !empty($data_value) ){
 		return " <a href='{$data_value}' target='_blank'>ver mapa</a>";
 	}
