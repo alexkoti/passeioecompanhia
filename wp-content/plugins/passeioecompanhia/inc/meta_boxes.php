@@ -412,9 +412,9 @@ function my_meta_boxes(){
 				'label' => 'Animal',
 				'options' => array(
 					'values' => array(
-						'' => 'Escolha',
 						'gato' => 'Gato',
 						'cachorro' => 'Cachorro',
+						'outro' => 'Outro',
 					),
 					'other_field' => array(
 						'attr' => array(
@@ -439,6 +439,7 @@ function my_meta_boxes(){
 			array(
 				'name' => 'sexo',
 				'type' => 'radio',
+				'std' => 'macho',
 				'label' => 'Sexo',
 				'options' => array(
 					'separator' => ' ',
@@ -451,6 +452,7 @@ function my_meta_boxes(){
 			array(
 				'name' => 'castrado',
 				'type' => 'radio',
+				'std' => 'nao',
 				'label' => 'Castrado',
 				'options' => array(
 					'separator' => ' ',
@@ -485,7 +487,7 @@ function my_meta_boxes(){
 			array(
 				'name' => 'durante_passeio',
 				'type' => 'checkbox_group',
-				'label' => 'Durante o passeio.. (para cães)',
+				'label' => 'Durante o passeio... (para cães)',
 				'options' => array(
 					'values' => array(
 						'evitar_criancas' => 'Evitar contato com crianças',

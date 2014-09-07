@@ -2753,5 +2753,62 @@ p.comment-form-comment {
  * 
  */
 body {
-	background:red;
+	background:#fee496;
+	padding:0;
 }
+.singular .hentry {
+	padding:0;
+}
+.singular .entry-title {
+	line-height:normal;
+}
+@media (max-width: 800px) {
+	#main #content {
+		margin:0 20px;
+	}
+}
+.entry-content h1 {
+	font-size:22px;
+	margin:30px 0 0;
+}
+.entry-content h2 {
+	border-bottom:1px solid #fee496;
+	margin:0;
+	padding:10px;
+}
+.info_block {
+	border:1px solid #fee496;
+	margin:0 0 25px;
+	position:relative;
+}
+.info_block .thumbnail {
+	border:10px solid #fff;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.info_list {
+	margin:0;
+	padding:10px;
+}
+.info_list dt {
+	border-top:1px solid #fee496;
+	margin:10px 0 0;
+}
+.info_list dt small {
+	display:block;
+	font-style:italic;
+	line-height:normal;
+}
+.info_list dt:first-child {
+	border:none;
+	margin:0;
+}
+.info_list dd {
+	margin:0;
+}
+
+
+
+
+
