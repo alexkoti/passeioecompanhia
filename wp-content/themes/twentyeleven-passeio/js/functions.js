@@ -30,4 +30,13 @@ jQuery(document).ready(function($){
 		$('.tab_box .tab_content').hide();
 		$(id).show(); // Mostrar conteúdo da aba requisitada
 	}
+	
+	/**
+	 * PHOTOSWIPE
+	 * 
+	 */
+	if( $('.gallery').length > 0 ){
+		var cebes_photo_swipe = $(".gallery .gallery-item a").photoSwipe();
+	}
+	
 });
